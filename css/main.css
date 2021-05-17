@@ -130,14 +130,6 @@ textarea {
     line-height: 1.285;
   }
    
-  img {
-   
-  }
-   
-  figure {
-   
-  }
-   
   address {
     font-style: normal;
    
@@ -170,6 +162,8 @@ textarea {
     align-items: center;
     flex-flow: row wrap;
     margin: 0;
+    background-color: #000;
+    color: white;
 
    }
 
@@ -197,6 +191,7 @@ textarea {
 
    footer {
     flex-direction: column;
+
   }
 
   footer p {
@@ -206,6 +201,7 @@ textarea {
    footer .content-wrapper {
      width: 55%;
      margin: 50px 0;
+
    }
 
    footer .contact {
@@ -247,6 +243,8 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: darkseagreen;
+    color: #fff;
 
    }
 
@@ -287,6 +285,8 @@ textarea {
     justify-content: center;
     flex-flow: row wrap;
     width: 90%;
+    background-color: #2a423a;
+    color: #fff;
 
    }
 
@@ -427,6 +427,32 @@ textarea {
 
 .clearfix::after {
   clear: both;
+}
+
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* ==========================================================================
