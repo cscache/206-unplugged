@@ -87,65 +87,71 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   html {
-    font-size: 16px;
-  }
-   
-  body {
-    font-size: 1em;
-    font-family: 'Open Sans', sans-serif;
-    color: #e2e3ed;
-    text-align: left;
-  }
-   
-  ul, 
-  ol {
-    list-style-type: none;
-  }
-   
-  a {
-    color: #e2e3ed;
-    text-decoration: none;
-  }
-   
-  h2 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 1.875em;
-  }
-   
-  h3, 
-  h4 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 1.125em;
-    margin: 20px 0;
-  }
-   
-  p {
-    font-size: .875em;
-    line-height: 1.285;
-  }
-   
-  img {
-   width: 100%;
-  }
-   
-  figure {
-   margin: 0;
-  }
-   
-  address {
-   font-style: normal;
-  }
-   
-  .content-wrapper {
-    width: 90%;
-    margin: 50px 0;
-  }
+/* General Styles */
 
-   /* ------------Base Header - Footer Styles --------------*/
-   header,
+html {
+  font-size: 16px;
+}
+   
+body {
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+  color: #e2e3ed;
+  text-align: left;
+}
+   
+ul, 
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+   
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+   
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.875em;
+  margin: 0;
+}
+   
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  margin: 20px 0;
+}
+   
+p {
+  font-size: .875em;
+  line-height: 1.285;
+}
+   
+img {
+   width: 100%;
+}
+   
+figure {
+  margin: 0;
+}
+   
+address {
+  font-style: normal;
+}
+   
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
+/* ------------Base Header - Footer Styles --------------*/
+
+header,
 footer {
   background-color: #202322;
   display: flex;
@@ -254,7 +260,7 @@ footer .copyright {
     background-size: cover;
     background-position: center;
     min-height: 500px;
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-flow: row wrap;
 
